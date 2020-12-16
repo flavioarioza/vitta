@@ -1,0 +1,20 @@
+{
+  "name": "vitta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.1.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  }
+}
